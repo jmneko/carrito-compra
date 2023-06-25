@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" href="style/reset.css" />
+    <title>agoodshop</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <span class="heading3 marca">agoodshop</span>
+    </header>
+
+    <main>
+      <!-- TABLA 1 -->
+
+      <div class="compra">
+        <div class="producto">
+          <table id="carrito-lista" class="producto__tabla">
+            <tr class="producto__indice">
+              <th class="producto__nombre">Producto</th>
+              <th class="producto__cantidad">Cantidad</th>
+              <th class="producto__unidad">Unidad</th>
+              <th class="producto__total">Total</th>
+            </tr>
+          </table>
+        </div>
+
+        <!--TABLA 2 -->
+
+        <div class="final">
+          <table id="producto-seleccionado">
+            <thead class="tabla2">
+              <tr>
+                <th class="heading3">Total</th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+          <div id="final__total">
+            <p class="final__resultado">
+              TOTAL : <span id="total-resultado"></span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="scripts/carrito.js"></script>
+    <script src="scripts/index.js"></script>
+  </body>
+</html>
